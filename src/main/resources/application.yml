@@ -1,0 +1,19 @@
+spring:
+  data:
+    mongodb:
+      repositories:
+        enabled: true
+      database: log525_social_master
+      host: ec2-52-60-196-16.ca-central-1.compute.amazonaws.com
+      port: 27017
+      username: dfsgsdfgsdfgdsfg
+      password: sdfgsdf#$%gsg456234dfgsdf
+  jackson:
+    date-format: com.fasterxml.jackson.databind.util.ISO8601DateFormat
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-uri: http://arachid.me:9999/oauth/token_key
+server:
+  port: 7777
